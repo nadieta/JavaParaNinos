@@ -1,0 +1,19 @@
+public class CoheteEspacial {
+
+	public static void main (String args[]) {
+	
+	   int cuentaAtras = 5;
+       String mensaje = "DESPEGUE";
+
+    try{ 
+	   while (cuentaAtras>0){
+               System.out.println(cuentaAtras);
+		 cuentaAtras--;
+	    }
+	     System.out.println(mensaje);
+       } catch (Exception e){
+         System.out.println("Se ha producido una excepción: " + e);
+       }
+	
+	}
+}
